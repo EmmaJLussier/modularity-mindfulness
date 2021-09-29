@@ -19,8 +19,6 @@ html {
 
 body {
   margin: 0;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
 }
 
 img {
@@ -28,8 +26,11 @@ img {
   width: 100%;
 }
 
-nav {
-  display: flex;
-  justify-content: space-between;
+section {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+nav ul {
   list-style-type: none;
 }
