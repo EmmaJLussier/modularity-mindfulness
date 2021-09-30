@@ -26,11 +26,32 @@ img {
   width: 100%;
 }
 
+div {
+  margin: 1.5rem;
+  padding: .5em 1em .6em;
+}
+
+h3 {
+  margin: 0;
+}
+
 section {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1rem;
+}
+
+section img {
+  padding: .5rem;
 }
 
 nav ul {
   list-style-type: none;
+  display: flex;
+  flex-direction: row;
+}
+
+a {
+  color: #3783a3;
+  padding: 1rem;
 }
