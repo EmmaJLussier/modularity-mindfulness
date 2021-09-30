@@ -21,6 +21,10 @@ body {
   margin: 0;
 }
 
+.banner {
+  position: relative;
+}
+
 img {
   display: block;
   width: 100%;
@@ -55,3 +59,13 @@ a {
   color: #3783a3;
   padding: 1rem;
 }
+
+article a {
+
+}
+
+@media only screen and (min-width: 38em) {
+
+}
+
+@media only screen and (min-width:
