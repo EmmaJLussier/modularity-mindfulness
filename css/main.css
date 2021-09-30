@@ -21,6 +21,10 @@ body {
   margin: 0;
 }
 
+header {
+  display: flex;
+}
+
 .banner {
   position: relative;
 }
@@ -31,8 +35,10 @@ img {
 }
 
 div {
-  margin: 1.5rem;
-  padding: .5em 1em .6em;
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1.5rem;
 }
 
 h3 {
@@ -63,9 +69,3 @@ a {
 article a {
 
 }
-
-@media only screen and (min-width: 38em) {
-
-}
-
-@media only screen and (min-width:
