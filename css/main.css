@@ -19,11 +19,11 @@ html {
 
 body {
   margin: 0;
-  max-width: 38em;
 }
 
 header {
   display: flex;
+  flex-direction: column;
 }
 
 .banner {
@@ -67,6 +67,16 @@ a {
   padding: 1rem;
 }
 
-article a {
+@media only screen and (min-width: 38em) {
+}
 
+@media only screen and (min-width: 320px) {
+
+section{
+  flex-wrap: nowrap;
+}
+
+article:nth-child-type(1){
+
+}
 }
