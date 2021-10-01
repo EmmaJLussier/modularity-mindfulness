@@ -68,11 +68,14 @@ a {
 }
 
 @media only screen and (min-width: 38em) {
+
 }
 
 @media only screen and (min-width: 320px) {
-
-section{
+.nav ul{
+  flex-wrap: wrap;
+}
+.section{
   flex-wrap: nowrap;
 }
 
